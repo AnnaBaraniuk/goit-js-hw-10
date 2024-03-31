@@ -5,7 +5,7 @@ import 'izitoast/dist/css/iziToast.min.css';
 
 let timeInterval = null;
 let userSelectedDate = null;
-let currentDate = null;
+
 const options = {
   enableTime: true,
   time_24hr: true,
@@ -20,7 +20,8 @@ const options = {
         position: 'topRight',
         message: `Please choose a date in the future`,
       });
-    }else{startBtn.disabled = false;
+    } else {
+      startBtn.disabled = false;
       inputTime.disabled = true;
     }
   },
@@ -32,7 +33,6 @@ function convertMs(ms) {
   const hour = minute * 60;
   const day = hour * 24;
 
-  
   const days = Math.floor(ms / day);
   const hours = Math.floor((ms % day) / hour);
   const minutes = Math.floor(((ms % day) % hour) / minute);
@@ -40,6 +40,7 @@ function convertMs(ms) {
 
   return { days, hours, minutes, seconds };
 }
+
 const fp = flatpickr('#datetime-picker', options);
 const inputTime = document.querySelector('#datetime-picker');
 const startBtn = document.querySelector('button');
