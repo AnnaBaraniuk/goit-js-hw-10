@@ -13,10 +13,8 @@
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
-
   color: #242424;
   background-color: rgba(255, 255, 255, 0.87);
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -70,11 +68,11 @@ input#datetime-picker {
   margin-left: 150px;
 }
 
-input#datetime-picker:active,
 input#datetime-picker:focus {
   border: 2px solid #3349e9;
   color: #0e0e0e;
 }
+
 input#datetime-picker:hover {
   border: 2px solid #000000;
   color: #0e0e0e;
@@ -88,7 +86,6 @@ button {
   display: inline-block;
   position: relative;
   color: #fff;
-
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;

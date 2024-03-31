@@ -1,33 +1,4 @@
-.main-item {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
 
-.main-link {
-  text-decoration: none;
-  max-width: 150px;
-  padding: 8px 12px;
-  border: 0;
-  outline: 0;
-  border-radius: 8px;
-  background-color: #ebecf0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #969696;
-  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
-  transition: all 0.2s ease-in-out;
-  cursor: pointer;
-  margin-bottom: 20px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.main-link:hover {
-  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
-}
-
-.main-link:active {
-  box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
-}
 .form {
   display: flex;
   flex-direction: column;
